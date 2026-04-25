@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: java-web-application-container
-          image: ashokid/java-web-app
+          image: spring-boot-ci-demo:latest
           ports:
             - containerPort: 8080
 ---
