@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Hello, from CI/CD Pipeline with Jenkins........!";
+        return "Hello, from CI/CD Pipeline with Jenkins...! This one is From Loadbancer of AWS EKS";
     }
 }
