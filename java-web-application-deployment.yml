@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: java-web-application-container
-          image: manushagunathilaka99/manusspring-boot-ci-demo:latest
+          image: manushagunathilaka99/spring-boot-ci-demo:latest
           ports:
             - containerPort: 8080
 ---
